@@ -1,0 +1,27 @@
+.gd{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.cp1{
+    background-color: aliceblue;
+}
+
+.pc1{
+    grid-row: span 2;
+    justify-content: center;
+    align-items: center;
+}
+
+.pc6{
+    grid-column: span 2;
+}
+
+.pc7{
+    grid-column: span 2;
+}
+p{
+    font-size: 26px;
+}
